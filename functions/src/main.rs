@@ -14,6 +14,8 @@ fn main() {
     println!("The value of p is: {}", p);
 }
 
+/////// MAIN END ///////
+
 fn first_fn() {
     println!("Hello, I am first fn!");
 }
@@ -44,5 +46,8 @@ fn return_value() -> i32 {
     55 + 44
 }
 
+
+// expressions -> it doesnt return anything
+// statement -> 
 
 

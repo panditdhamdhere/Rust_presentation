@@ -21,7 +21,8 @@ I am covering basic to little advance following topics/n
 17 -> Traits
 18 -> Vectors
 19 -> Hashmap
-20 -> Concurrency
-21 -> Questions & answers
+20 -> Concurrenc
+21 -> Random number Guessing game
+22 -> Questions & answers
 
 This is just basic intro, Rust is more than these topics!
