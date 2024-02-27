@@ -27,7 +27,7 @@ fn first() {
 
     println!("The value of b is {}", b);
 
-    // ------------------------STRING ------------//
+    // ------------STRING ------------//
 
     let pd = String::from("Pandit Dhamdhere");
 
