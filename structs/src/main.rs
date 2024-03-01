@@ -5,13 +5,13 @@ struct User {
     age: u32,
 }
 
-struct Home {
-    address: String,
-    city: String,
-    state: String,
-    house_number: u32,
-    you_lived: bool,
-}
+// struct Home {
+//     address: String,
+//     city: String,
+//     state: String,
+//     house_number: u32,
+//     you_lived: bool,
+// }
 
 fn main() {
     println!("Struct!");
@@ -32,17 +32,21 @@ fn main() {
 
     ////////Struct /////////
 
-    let uh1 = Home {
-        address: String::from("123 Main St"),
-        city: String::from("Pune"),
-        state: String::from("Maharashtra"),
-        house_number: 123,
-        you_lived: true,
-    };
+    // let uh1 = Home {
+    //     address: String::from("123 Main St"),
+    //     city: String::from("Pune"),
+    //     state: String::from("Maharashtra"),
+    //     house_number: 123,
+    //     you_lived: true,
+    // };
 
-    println!("uh1 address is {}", uh1.address);
-    println!("uh1 city is {}", uh1.city);
-    println!("uh1 state is {}", uh1.state);
-    println!("uh1 house_number is {}", uh1.house_number);
-    println!("uh1 you_lived is {}", uh1.you_lived);
+    // println!("uh1 address is {}", uh1.address);
+    // println!("uh1 city is {}", uh1.city);
+    // println!("uh1 state is {}", uh1.state);
+    // println!("uh1 house_number is {}", uh1.house_number);
+    // println!("uh1 you_lived is {}", uh1.you_lived);
 }
+
+// CLASS & OBJECTS -> just like other programming languages
+
+// oops -> object oriented programming stuff

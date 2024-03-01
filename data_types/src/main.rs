@@ -53,3 +53,9 @@ fn main() {
 
     
 }
+
+// custom data types in Rust 
+// enums 
+// structs
+// traits
+// generics

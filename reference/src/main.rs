@@ -8,6 +8,18 @@ fn main() {
     println!("y is {}", y); // refered
     println!("z is {}", z); // refered
 
-    // thus we can however you want!
-    // & is notation mark of references in rust
+    // At any given time, you can have either one mutable reference or any number of immutable references. 
+
+    // References must always be valid.
 }
+
+
+// Slice 
+
+
+// let a = [1, 2, 3, 4, 5];
+
+// let slice = &a[1..3];
+
+// assert_eq!(slice, &[2, 3]);
+

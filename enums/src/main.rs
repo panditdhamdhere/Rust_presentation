@@ -1,35 +1,38 @@
-enum CarTypes {
-    Hatchback,
-    Sedan,
-    Convertible,
-    Truck,
+enum Food {
+    Apple,
+    Orange,
+    Grapes,
+    Pineapple,
 }
 
-fn print_cars(car: CarTypes) {
-    match car {
-        CarTypes::Hatchback => {
-            println!("Small car in a segment");
+fn print_foods(food: Food) {
+    match food {
+        Food::Apple => {
+            println!("Good Food");
         }
 
-        CarTypes::Sedan => {
-            println!("Luxery car in a segment");
+        Food::Orange => {
+            println!("Nice Food");
         }
 
-        CarTypes::Convertible => {
-            println!("Big car in a segment");
+        Food::Grapes => {
+            println!("Best Food");
         }
 
-        CarTypes::Truck => {
-            println!("Truck in a segment");
+        Food::Pineapple => {
+            println!("Tasty Food");
         }
     }
 }
 fn main() {
     println!("Enums!");
 
-    print_cars(CarTypes::Hatchback);
-    print_cars(CarTypes::Sedan);
-    print_cars(CarTypes::Convertible);
-    print_cars(CarTypes::Truck);
-    
+    print_foods(Food::Apple);
+    print_foods(Food::Orange);
+    print_foods(Food::Grapes);
+    print_foods(Food::Pineapple);
 }
+
+//// BASIC ENUMS /////////
+
+// enums are custom data types
