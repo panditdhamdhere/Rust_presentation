@@ -40,5 +40,7 @@ Game Development: The performance and safety features of Rust make it an attract
 
 fn main() {
     println!("Hello, Rust!");
+    println!("Hello, Archway!");
+    println!("Hello, world!");
     
 }

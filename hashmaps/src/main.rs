@@ -47,3 +47,6 @@ fn main() {
 
 
 }
+
+// hashmap is a key value pair data structure
+// hashmaps are kind of like dictionaries

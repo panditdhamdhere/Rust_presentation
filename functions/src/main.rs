@@ -6,10 +6,12 @@ fn main() {
 
     second_fn(12);
 
-    third_fn(10, 'r');
+     third_fn(10, 'r');
 
-    exp();
+     exp();
 
+
+    
     let p = return_value();
 
     println!("The value of p is: {}", p);
@@ -52,4 +54,3 @@ fn return_value() -> i32 {
 }
 
 // expressions -> it doesnt return anything
-
