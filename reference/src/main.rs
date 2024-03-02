@@ -11,6 +11,8 @@ fn main() {
     // At any given time, you can have either one mutable reference or any number of immutable references. 
 
     // References must always be valid.
+    // If you break a reference, the program will crash.
+    
 }
 
 

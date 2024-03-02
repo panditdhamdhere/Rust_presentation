@@ -1,3 +1,4 @@
+// main function is entry point of your program!
 fn main() {
     println!("Hello, Functions!");
 
@@ -16,13 +17,17 @@ fn main() {
 
 /////// MAIN END ///////
 
+///////////////////////////////////////////////////
+//////////////////////Functions////////////////////
+//////////////////////////////////////////////////
+
 fn first_fn() {
     println!("Hello, I am first fn!");
 }
 
 // pass single parameter
 fn second_fn(x: i32) {
-    println!("The valu of x is: {}", x);
+    println!("The value of x is: {}", x);
 }
 
 // pass multiple parameters -> example of statement
@@ -46,8 +51,5 @@ fn return_value() -> i32 {
     55 + 44
 }
 
-
 // expressions -> it doesnt return anything
-// statement -> 
-
 

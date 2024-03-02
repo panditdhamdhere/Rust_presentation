@@ -31,7 +31,8 @@ fn first() {
 
     let pd = String::from("Pandit Dhamdhere");
 
-    let pk = pd;
+    // let pk = pd;
+    let pk = pd.clone();
 
     println!("The value of pk is {}", pk);
 }

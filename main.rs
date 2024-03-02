@@ -2,7 +2,7 @@
 
 ///////////////////////////////////////////////////////////////////////////
 ////////////Introduction to Rust Programming Language////////////
-/////////////////////////////////////////////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////
 
 
 Origins at Mozilla: Rust was conceived as a personal project by Graydon Hoare, a Mozilla employee at the time. He aimed to create a language that combined the performance of low-level systems languages like C and C++ with modern language features that promote safety and concurrency.
@@ -40,4 +40,5 @@ Game Development: The performance and safety features of Rust make it an attract
 
 fn main() {
     println!("Hello, Rust!");
+    
 }

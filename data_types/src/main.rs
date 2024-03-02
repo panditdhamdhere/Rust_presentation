@@ -4,7 +4,7 @@ fn main() {
     // data types in rust
 
     // scalar data types -> (Types where we store single values)
-    // integer, float, boolean, char
+    //  integers, floating-point numbers, Booleans, and characters.
 
     // integer length -> signed or unsigned
     // signed bit -> i8, i16, i32, i64, i128 -> predifined use arch
@@ -29,6 +29,8 @@ fn main() {
     // compound data types -> (Types where we store multiple data at a time);
     // tuple, arrays, disctionary, enums, structs
 
+    ////////coumpound data types/////////////
+
     // tuples
     let mut tup: (i32, u8, i32, i32, f32) = (1, 2, 3, 4, 5.6);
     println!("tup is {:?}", tup);
@@ -50,12 +52,16 @@ fn main() {
     arr[0] = 76;
     println!("arr is {:?}", arr);
     // value changed; array is mutable by default
-
-    
 }
 
-// custom data types in Rust 
-// enums 
+// custom data types in Rust
+// enums
 // structs
+
 // traits
 // generics
+
+//// two types of strings in Rust: String and &str .
+// A String is stored as a vector of bytes ( Vec<u8> ),
+// but guaranteed to always be a valid UTF-8 sequence.
+// String is heap allocated, growable and not null terminated.
