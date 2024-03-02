@@ -1,7 +1,10 @@
 // &self -> for only to read data
+// &mut self -> for read and write data
+// traits -> similar to interfaces
+// traits are like behaviours
 
 trait Printable {
-    fn print(&self);
+    fn print(&self);  // &self - to use read data -> &mut self - to use read and write data
 }
 
 struct Rectangle {
